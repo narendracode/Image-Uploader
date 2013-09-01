@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/captureImage"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/Capture_Image"/>
+    
+     <item
+        android:id="@+id/viewMap"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+         android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="View Map"/>
+    
+
+</menu>

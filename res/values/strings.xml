@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Image Browser</string>
+    <string name="Capture_Image">Upload Image</string>
+    <string name="Select_Image">Select Image from Gallery</string>
+    <string name="imageViewDesc">Display the image uploaded by user</string>
+    
+</resources>

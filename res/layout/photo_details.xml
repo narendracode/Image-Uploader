@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="150dp"
+        android:text="Image Details"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView_PhotoDetails"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/image_bg"
+         android:typeface="sans"
+         android:layout_marginLeft="125dip"
+        android:contentDescription="Displays the image uploaded by user"/>
+
+   
+     <TextView
+        android:id="@+id/label_caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caption"
+        android:layout_marginLeft="175dip"
+        android:layout_below="@id/imageView_PhotoDetails"
+        />
+
+    <TextView
+        android:id="@+id/caption_PhotoDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView_PhotoDetails"
+        android:layout_toRightOf="@id/label_caption"
+         android:layout_marginLeft="250dip" />
+
+
+    <TextView
+        android:id="@+id/label_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dip"
+        android:layout_below="@id/label_caption"
+        android:text="Location" />
+
+    <TextView
+        android:id="@+id/location_PhotoDetails"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/label_caption"
+         android:layout_toRightOf="@id/label_location"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="250dip"
+        />
+
+</LinearLayout>
